@@ -1,4 +1,4 @@
 PriorityQueue
 ==========
 
-Implements a priority queue as a pairing heap.
+Implements a priority queue with a pairing heap.
