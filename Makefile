@@ -16,6 +16,3 @@ tester.o: tester.cpp priority_queue.h priority_queue.cpp
 
 clean:
 	-rm -rf *.o $(PQUEUE)
-
-tidy:
-	-rm -rf doc
