@@ -116,7 +116,7 @@ void PriorityQueue<T>::meld(Node* & first, Node* second)
     if(second != NULL) 
     {
         //
-        if(first->elem > second->elem)
+        if(first->elem < second->elem)
         {
             second->prev = first;
             first->next = second->next;
